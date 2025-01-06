@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-image: url('wallpaper 3.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #b391c7;
+            color: #fff;
+            border: double line;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #815981;
+        }
+        .background-border {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #c1b4bb;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .contact-container {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            background: #b95e76;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        a {
+            color: #e8b7ce;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        a:hover {
+            color: #eef1f4;
+            text-decoration: underline;
+        }
+        .social-media-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-media-links img {
+            width: 40px;
+            height: auto;
+        }
+    </style>
+</head>
+<script>
+    function revealPhone() {
+        document.getElementById('phone-number').textContent = '+60194649092';
+    }
+</script>
+<body>
+    <center>
+        <p><button onclick="document.location='HOMEPAGE.html'">Home</button></p>
+    </center>
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <a href="mailto:Najwaalya5zal@gmail.com">📧 Najwaalya5zal@gmail.com</a>
+        <p>📞 Phone: <span id="phone-number">Private</span> <button onclick="revealPhone()">Show</button></p>
+        <h2>Active Social Media Accounts:</h2>
+        <div class="social-media-links">
+            <a href="https://www.instagram.com/najwalya._/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            </a>
+            <a href="https://x.com/najwalyaa" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg" alt="X Logo">
+            </a>
+            <a href="https://www.tiktok.com/@4lyadrafts" target="_blank">
+                <img src="https://static.wikia.nocookie.net/tiktok/images/e/eb/TikTok_Logo.png/revision/latest?cb=20210816124125" alt="TikTok Logo">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
